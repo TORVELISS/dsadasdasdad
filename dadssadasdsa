@@ -1,0 +1,124 @@
+
+--Main vars
+
+local name = game:GetService("Players").LocalPlayer.Name
+local backpack = game:GetService("Players").LocalPlayer.Backpack
+local humanoid = game:GetService("Workspace"):FindFirstChild(name)
+_G.AutoMove = true
+--Moves
+
+local Fireball = game.Players.LocalPlayer.Backpack:FindFirstChild("Fireball")
+local Waterwave = game.Players.LocalPlayer.Backpack:FindFirstChild("Water Wave")
+local Windcutter = game.Players.LocalPlayer.Backpack:FindFirstChild("Wind Cutter")
+local Phoenixflower = game.Players.LocalPlayer.Backpack:FindFirstChild("Phoenix Fire Flower")
+local Waterbomb = game.Players.LocalPlayer.Backpack:FindFirstChild("Water Shark Bomb")
+local Waterwave = game.Players.LocalPlayer.Backpack:FindFirstChild("Water Wave")
+local Sparkprison = game.Players.LocalPlayer.Backpack:FindFirstChild("Spark Prison")
+local Fiercewindb = game.Players.LocalPlayer.Backpack:FindFirstChild("Fierce Wind Blades")
+local Lightningdrag = game.Players.LocalPlayer.Backpack:FindFirstChild("Lightning Dragon")
+local Electromagnet = game.Players.LocalPlayer.Backpack:FindFirstChild("Electromagnetic Murder")
+local Windrag = game.Players.LocalPlayer.Backpack:FindFirstChild("Wind Dragon")
+local RockCrash = game.Players.LocalPlayer.Backpack:FindFirstChild("Rock Crash")
+
+--[[
+
+if move then
+move.Parent = humanoid
+move:Activate()
+wait(1)
+move.Parent = backpack
+wait(0.2)
+end
+
+--]]
+
+--Equip and use
+
+spawn(function()
+while _G.AutoMove == true do
+if Fireball then
+Fireball.Parent = humanoid
+Fireball:Activate()
+wait(1)
+Fireball.Parent = backpack
+wait(0.2)
+end
+if Waterwave then
+Waterwave.Parent = humanoid
+Waterwave:Activate()
+wait(1)
+Waterwave.Parent = backpack
+wait(0.2)
+end
+if Windcutter then
+Windcutter.Parent = humanoid
+Windcutter:Activate()
+wait(1)
+Windcutter.Parent = backpack
+wait(0.2)
+end
+if Phoenixflower then
+Phoenixflower.Parent = humanoid
+Phoenixflower:Activate()
+wait(1)
+Phoenixflower.Parent = backpack
+wait(0.2)
+end
+if Waterbomb then
+Waterbomb.Parent = humanoid
+Waterbomb:Activate()
+wait(1)
+Waterbomb.Parent = backpack
+wait(0.2)
+end
+if Waterwave then
+Waterwave.Parent = humanoid
+Waterwave:Activate()
+wait(1)
+Waterwave.Parent = backpack
+wait(0.2)
+end
+if Fiercewindb then
+Fiercewindb.Parent = humanoid
+Fiercewindb:Activate()
+wait(1)
+Fiercewindb.Parent = backpack
+wait(0.2)
+end
+if Sparkprison then
+Sparkprison.Parent = humanoid
+Sparkprison:Activate()
+wait(1)
+Sparkprison.Parent = backpack
+wait(0.2)
+end
+if Lightningdrag then
+Lightningdrag.Parent = humanoid
+Lightningdrag:Activate()
+wait(1)
+Lightningdrag.Parent = backpack
+wait(0.2)
+end
+if Electromagnet then
+Electromagnet.Parent = humanoid
+Electromagnet:Activate()
+wait(1)
+Electromagnet.Parent = backpack
+wait(0.2)
+end
+if Windrag then
+Windrag.Parent = humanoid
+Windrag:Activate()
+wait(1)
+Windrag.Parent = backpack
+wait(0.2)
+end
+if RockCrash then
+RockCrash.Parent = humanoid
+RockCrash:Activate()
+wait(1)
+RockCrash.Parent = backpack
+wait(0.2)
+end
+end
+end)
